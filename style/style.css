@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "josefin sans", sans-serif;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero h3 {
+  color: white;
+  padding: 40px 40px;
+}
+.hero header nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: -80px;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-top: -60px;
+}
+.hero header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.hero header nav ul li .nav {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.hero header nav ul li .nav:hover {
+  color: #ea1538;
+  transition: 0.3s;
+}
+.hero h4 {
+  margin-top: 200px;
+  margin-left: 40px;
+  color: white;
+  font-size: 20px;
+}
+.hero .p1 {
+  margin-top: 40px;
+  margin-left: 40px;
+  color: white;
+  font-size: 50px;
+}
+.hero input {
+  padding: 10px 120px;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+  border: white solid 2px;
+}
+.hero .box {
+  width: 110px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: -40px;
+  margin-left: 460px;
+  background-color: greenyellow;
+  color: black;
+  padding-top: 12px;
+  padding-left: 30px;
+}
+.hero .container-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 40px;
+  color: white;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

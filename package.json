@@ -1,0 +1,16 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass sass/style.scss style/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.70.0"
+  },
+  "keywords": [],
+  "description": ""
+}
